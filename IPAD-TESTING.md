@@ -1,10 +1,23 @@
 # iPad 雲端建置與免費帳號測試
 
-這個流程在 GitHub 的 macOS 主機編譯 Unity 2022.3.62f3，輸出未簽章 IPA。
+這個流程使用 Unity 2022.3.62f3，並在 GitHub 的 macOS 主機編譯 Xcode 專案，輸出未簽章 IPA。
 IPA 必須先在你的 Windows 電腦上簽章，才能裝到 iPad；不是 TestFlight 發布版。
 流程尚未完成雲端建置或 iPad 實機驗證。
 
-## 先設定 Unity 授權
+## 使用本機匯出的 Xcode 專案
+
+當雲端 Unity 登入失敗時，可以由已啟用的本機 Unity 匯出，再交給雲端 Xcode 編譯。
+
+1. 安裝 Unity 2022.3.62f3 的 iOS Build Support。
+2. 用 `CloudIOSExport.Build` 匯出啟用的場景與 iOS Xcode 專案。
+3. 將匯出資料夾內的檔案壓縮為 `OCEAN-Xcode.zip`，並產生 `SHA256SUMS.txt`。
+4. 將兩個檔案上傳至本儲存庫 `ios-xcode-export-2026-10-11` Release。
+5. Actions → Compile exported Xcode project for iPad → Run workflow。
+
+這個工作流程不讀取 Unity 帳號 Secrets。產出的 IPA 仍需要以下述方式簽章後才能安裝。
+請重新匯出並更新 Release 資產，才能在此流程中包含後續的 Unity 專案變更。
+
+## 直接在雲端執行 Unity（另一個流程）
 
 在本儲存庫 Settings → Secrets and variables → Actions → New repository secret 新增：
 

@@ -20,5 +20,6 @@ SHA-256：`A4890C652173006D88DB0E6A1A6DE98D2981EA6304CF8FB62AE8E4BD3F28FFD6`
 
 Unity 原始碼與素材已加入此儲存庫。手動雲端建置流程會輸出未簽章 IPA，需在 Windows 上以自己的 Apple 帳號簽章後安裝。
 
-請先依 [iPad 測試說明](IPAD-TESTING.md) 設定 Unity 授權，再到 Actions 執行 `Build iPad IPA for local signing`。
+請依 [iPad 測試說明](IPAD-TESTING.md) 匯出 Xcode 專案，再到 Actions 執行 `Compile exported Xcode project for iPad`。
+另保留 `Build iPad IPA for local signing` 流程，供能在雲端啟用 Unity 授權的帳號使用。
 目前流程尚未完成雲端建置或 iPad 實機驗證；現有 Android APK Release 不適用於 iPad。
