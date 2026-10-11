@@ -30,7 +30,7 @@ if [[ "${#apps[@]}" -ne 1 ]]; then
 fi
 app="${apps[0]}"
 executable="$(/usr/libexec/PlistBuddy -c 'Print CFBundleExecutable' "$app/Info.plist")"
-lipo -verify_arch arm64 "$app/$executable"
+lipo "$app/$executable" -verify_arch arm64
 ditto "$app" "$output/Payload/$(basename "$app")"
 ditto -c -k --keepParent "$output/Payload" "$output/MarineEncyclopedia-unsigned.ipa"
 unzip -tq "$output/MarineEncyclopedia-unsigned.ipa"
