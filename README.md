@@ -1,6 +1,6 @@
 # OCEAN 海洋生物圖鑑
 
-Unity 海洋生物圖鑑 Android 測試版。
+Unity 海洋生物圖鑑 Android 與 iPad 測試版。
 
 ## 下載
 
@@ -22,4 +22,6 @@ Unity 原始碼與素材已加入此儲存庫。手動雲端建置流程會輸�
 
 請依 [iPad 測試說明](IPAD-TESTING.md) 匯出 Xcode 專案，再到 Actions 執行 `Compile exported Xcode project for iPad`。
 另保留 `Build iPad IPA for local signing` 流程，供能在雲端啟用 Unity 授權的帳號使用。
-目前流程尚未完成雲端建置或 iPad 實機驗證；現有 Android APK Release 不適用於 iPad。
+2026-10-11 已完成 [iPad 雲端建置](https://github.com/REX2222222222/OCEAN/actions/runs/38124833422) 與 IPA 檔案檢查。
+
+下載 [iPad 測試版 IPA](https://github.com/REX2222222222/OCEAN/releases/download/ipad-test-2026-10-11/MarineEncyclopedia-unsigned.ipa)，再依測試說明簽章安裝。尚未完成 iPad 實機驗證。

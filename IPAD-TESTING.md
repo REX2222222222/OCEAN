@@ -2,7 +2,11 @@
 
 這個流程使用 Unity 2022.3.62f3，並在 GitHub 的 macOS 主機編譯 Xcode 專案，輸出未簽章 IPA。
 IPA 必須先在你的 Windows 電腦上簽章，才能裝到 iPad；不是 TestFlight 發布版。
-流程尚未完成雲端建置或 iPad 實機驗證。
+2026-10-11 已成功完成雲端編譯與 IPA 完整性、ARM64、iPad 支援及相機權限描述檢查；尚未完成 iPad 實機驗證。
+
+下載：[MarineEncyclopedia-unsigned.ipa](https://github.com/REX2222222222/OCEAN/releases/download/ipad-test-2026-10-11/MarineEncyclopedia-unsigned.ipa)。
+建置：[成功紀錄](https://github.com/REX2222222222/OCEAN/actions/runs/38124833422)。
+SHA-256：`fb5ea67483b8040b626a68579694741f049e8e5f0333f328abca4d20b9ee52b2`。
 
 ## 使用本機匯出的 Xcode 專案
 
