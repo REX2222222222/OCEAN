@@ -30,7 +30,34 @@ jobs:
               missing=1
             fi
           done
-          exit "$missing"
+          if [[ "$missing" -ne 0 ]]; then exit "$missing"; fi
+          python3 - <<'PY'
+          import os
+          import re
+          import sys
+          import xml.etree.ElementTree as ET
+
+          errors = []
+          email = os.environ['UNITY_EMAIL']
+          password = os.environ['UNITY_PASSWORD']
+          if email != email.strip() or not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', email):
+              errors.append('UNITY_EMAIL must be the Unity login email without extra whitespace.')
+          if any(char in password for char in '\r\n'):
+              errors.append('UNITY_PASSWORD contains a line break. Paste only the Unity password.')
+          if password != password.strip():
+              errors.append('UNITY_PASSWORD has leading or trailing whitespace. Verify the saved value.')
+          try:
+              license_root = ET.fromstring(os.environ['UNITY_LICENSE'])
+              if license_root.find('.//DeveloperData') is None:
+                  errors.append('UNITY_LICENSE is missing the activation data required by GameCI.')
+          except ET.ParseError:
+              errors.append('UNITY_LICENSE is not a valid Unity license XML file.')
+          for message in errors:
+              print('::error::' + message)
+          if errors:
+              sys.exit(1)
+          print('Unity secret format checks passed. Secret values were not logged.')
+          PY
 
       - name: Checkout project
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
