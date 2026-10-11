@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u77ED\u810A\u69CD\u8766"
+  m_EditorClassIdentifier: 
+  organismName: "\u77ED\u810A\u69CD\u8766"
+  photo: {fileID: 21300000, guid: 61833c93022714440a45390007a36fb3, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u69CD\u8766\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tAlpheus
+    brevicristatus\r\n\u4FD7\u3000\u540D\uFF1A\t\u8349\u8766\r\n\u7C21\u3000\u4ECB\uFF1A\t\u4FD7\u7A31\u8349\u8766\uFF0C\u56E0\u5176\u751F\u9577\u5728\u5375\u8449\u9E7D\u85FB\u548C\u7DDA\u8449\u4E8C\u85E5\u85FB\u6240\u7D44\u6210\u7684\u9C3B\u8349\u5340\u7BC9\u7A74\u800C\u68F2\u800C\u5F97\u540D\uFF0C\u6700\u5927\u578B\u53EF\u90545\u516C\u5206\u591A\uFF0C\u5C90\u982D\u3001\u8B1B\u7F8E\u3001\u57CE\u524D\u3001\u91CD\u5149\u7B49\u6F6E\u9593\u5E36\u6D77\u8349\u5340\u5E38\u53EF\u627E\u5230\u7260\u5011\u6210\u96D9\u6210\u5C0D\u7684\u5137\u5F71\u3002\u7531\u65BC\u7260\u5011\u662F\u4E0A\u597D\u7684\u91E3\u990C\u3001\u5C08\u696D\u7684\u6316\u8E90\u63A1\u6355\u4F7F\u65CF\u65CF\u9A5F\u6E1B\uFF0C\u5DF2\u5F15\u8D77\u6F01\u653F\u8207\u4FDD\u80B2\u55AE\u4F4D\u7684\u95DC\u5FC3\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

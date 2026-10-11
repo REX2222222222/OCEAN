@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u963F\u62C9\u4F2F\u5BF6\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u963F\u62C9\u4F2F\u5BF6\u87BA"
+  photo: {fileID: 21300000, guid: 913d9193bb63b3e46899254ec58fb7e0, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u5BF6\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCypraea
+    arabica\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6700\u5E38\u898B\u7684\u4E2D\u578B\u5BF6\u87BA\u3002\u5468\u7DE3\u6DE1\u8089\u8272\u6709\u9ED1\u8272\u6591\uFF0C\u80CC\u6DE1\u8910\u8272\u5BC6\u4F48\u6DF1\u68D5\u7D30\u7D0B\u5F62\u4F3C\u963F\u62C9\u4F2F\u6587\u3002\u5E7C\u8C9D\u5916\u5507\u53E3\u5927\u4E14\u6BBC\u6DFA\u6613\u788E\uFF0C\u4E9E\u6210\u8C9D\u6709\u96F2\u5F69\u7D0B\u73ED\u3002\u68F2\u65BC\u6DFA\u6D77\u5CA9\u7901\uFF0C\u6578\u5341\u5E74\u524D\u4E3B\u8981\u7684\u98DF\u7528\u87BA\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

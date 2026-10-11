@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u4F01\u9D5D\u9DAF\u86E4"
+  m_EditorClassIdentifier: 
+  organismName: "\u4F01\u9D5D\u9DAF\u86E4"
+  photo: {fileID: 21300000, guid: bf516b97566e4aa4d83f702fe992ac74, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9DAF\u86E4\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tPteria
+    penguin\r\n\u4FD7\u3000\u540D\uFF1A\t\u73CD\u73E0\u86B5\r\n\u7C21\u3000\u4ECB\uFF1A\t\u96D9\u6BBC\u5927\u578B\uFF0C\u9ED1\u8272\uFF0C\u5F8C\u8033\u7A81\u9577\uFF0C\u5167\u9762\u6709\u73CD\u73E0\u5149\u6FA4\uFF0C\u8179\u7DE3\u5448\u9ED1\u8272\u3002\u6BBC\u9577\u7D0420\u516C\u5206\uFF0C\u7522\u65BC\u6DFA\u6D77\u5CA9\u7901\u5E95\uFF0C\u6578\u91CF\u4E0D\u591A\uFF0C\u53EF\u98DF\u7528\uFF0C\u4EA6\u505A\u70BA\u624B\u5DE5\u85DD\u54C1\u52A0\u5DE5\u6750\u6599\uFF0C\u83DC\u5712\u91CC\u6709\u7522\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

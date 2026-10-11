@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u4E09\u75A3\u68AD\u5B50\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u4E09\u75A3\u68AD\u5B50\u87F9"
+  photo: {fileID: 21300000, guid: 7320f1c36fc2da14b93c6665881365fe, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u68AD\u5B50\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tPortunus
+    trituberculatus\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u9AD4\u5448\u68AD\u5F62\uFF0C\u7532\u9762\u5BC6\u751F\u7D30\u9846\u7C92\uFF0C\u984D\u68D8\u6709\u4E09\u679A\uFF0C\u6B64\u6B63\u662F\u62C9\u4E01\u7A2E\u5C0F\u540D\u7684\u5B57\u610F\u3002\u524D\u5074\u7DE3\u5177\u4E5D\u679A\u5C16\u92B3\u9F52\uFF0C\u982D\u80F8\u7532\u524D\u534A\u90E8\u6709\u5FAE\u660E\u7684\u4E8C\u689D\u6A6B\u8D8A\u7532\u9762\u7684\u9686\u8DE1\u3002\u6B64\u7A2E\u70BA\u5916\u6D0B\u6027\u87F9\u7A2E\uFF0C\u672C\u7E23\u7522\u91CF\u751A\u5C11\uFF0C\u5E02\u5834\u4E0A\u6240\u898B\u8005\u591A\u70BA\u91D1\u9580\u3001\u99AC\u7956\u6CBF\u6D77\u4F5C\u696D\u4E45\u5E95\u62D6\u7DB2\u6F01\u8239\u6240\u6355\u7372\u8005\uFF0C\u4EE5\u51AC\u5B63\u6240\u7522\u8005\u8F03\u80A5\u7F8E\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9ED1\u6307\u7D0B\u6D77\u5154"
+  m_EditorClassIdentifier: 
+  organismName: "\u9ED1\u6307\u7D0B\u6D77\u5154"
+  photo: {fileID: 21300000, guid: a107c1ad68504144eba1bf1c181718a7, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6D77\u5154\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tAplysia
+    dactylomela\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t20\u516C\u5206\u5DE6\u53F3\u7684\u5927\u578B\u6D77\u5154\uFF0C\u9AD4\u8868\u5448\u571F\u9EC3\u7DA0\u8272\uFF0C\u5176\u4E0A\u6709\u5927\u578B\u9ED1\u8272\u86C7\u76EE\u6591\u8207\u653E\u5C04\u9ED1\u7D0B\uFF0C\u4EE5\u85FB\u985E\u70BA\u98DF\uFF0C\u53D7\u5E72\u64FE\u6642\u91CB\u653E\u7D2B\u8272\u6DB2\u9AD4\u81EA\u885B\uFF0C\u4EA4\u914D\u5F8C\u6703\u7522\u51FA\u9EB5\u7DDA\u822C\u5375\u5718\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

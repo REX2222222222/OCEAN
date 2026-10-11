@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u6241\u8239\u86F8"
+  m_EditorClassIdentifier: 
+  organismName: "\u6241\u8239\u86F8"
+  photo: {fileID: 21300000, guid: 7facd37e7f83ba045863a3367b272c4d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u8239\u86F8\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tArgonauta
+    argo\r\n\u4FD7\u3000\u540D\uFF1A\t\u5167\u87BA\r\n\u7C21\u3000\u4ECB\uFF1A\t\u8239\u86F8\u985E\u7684\u6BBC\u5B8C\u5168\u9000\u5316\uFF0C\u4E00\u751F\u904E\u8457\u6D6E\u6E38\u751F\u6D3B\u3002\u96C4\u9AD4\u7121\u6BBC\u9AD4\u5C0F\u7D04\u70BA\u96CC\u9AD4\u7684\u4E8C\u5341\u5206\u4E4B\u4E00\u3002\u5E36\u8457\u77F3\u7070\u8CEA\u5916\u6BBC\u7684\u662F\u96CC\u9AD4\uFF0C\u6BBC\u4FC2\u7528\u4F86\u5B75\u5375\u3002\u96CC\u96C4\u4EA4\u914D\u5F8C\uFF0C\u4EA4\u63A5\u8155\u5207\u9664\u7559\u5728\u96CC\u9AD4\u4E2D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

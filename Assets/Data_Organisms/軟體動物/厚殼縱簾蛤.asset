@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u539A\u6BBC\u7E31\u7C3E\u86E4"
+  m_EditorClassIdentifier: 
+  organismName: "\u539A\u6BBC\u7E31\u7C3E\u86E4"
+  photo: {fileID: 21300000, guid: 2587e75b9b17e874abb301cf2ca79815, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u7C3E\u86E4\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tGafrarium
+    tumidum\r\n\u4FD7\u3000\u540D\uFF1A\t\u539A\u6BBC\u4ED4\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6BBC\u8868\u6709\u7C97\u653E\u5C04\u808B\uFF0C\u82B1\u7D0B\u8B8A\u5316\u8C50\u5BCC\uFF0C\u6BBC\u9577\u7D043\u516C\u5206\u51FA\u982D\uFF0C\u68F2\u65BC\u6F6E\u9593\u5E36\u792B\u7802\u4EA4\u6DF7\u5E95\u8CEA\uFF0C\u57CB\u5165\u6DF1\u5EA6\u6700\u6DFA\uFF0C\u672C\u5730\u7FD2\u6163\u4EE5\u624B\u6252\u6216\u8A66\u6233\u65B9\u5F0F\u4F5C\u696D\uFF0C\u56E0\u6BBC\u91CD\u8089\u5C0F\uFF0C\u5C6C\u4F4E\u50F9\u4F4D\u7684\u98DF\u7528\u8C9D\u7A2E\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

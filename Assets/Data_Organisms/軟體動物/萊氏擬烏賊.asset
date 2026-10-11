@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u840A\u6C0F\u64EC\u70CF\u8CCA"
+  m_EditorClassIdentifier: 
+  organismName: "\u840A\u6C0F\u64EC\u70CF\u8CCA"
+  photo: {fileID: 21300000, guid: e545f748c0b069d46b3d038e35466ecd, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u69CD\u70CF\u8CCA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tSepioteuthis
+    lessoniana\r\n\u4FD7\u3000\u540D\uFF1A\t\u67D4\u9B5A\u3001\u8EDF\u5319\u4ED4\uFF08\u8EDF\u7D72\u4ED4\uFF09\r\n\u7C21\u3000\u4ECB\uFF1A\t\u672C\u7A2E\u5916\u89C0\u8F03\u4F3C\u70CF\u8CCA\uFF0C\u4F46\u70CF\u8CCA\u5167\u6BBC\u786C\u539A\uFF0C\u6B64\u7A2E\u5167\u6BBC\u5247\u8EDF\u5982\u5C0F\u7BA1\u3002\u5916\u5957\u819C\u5169\u5074\u8EDF\u9C2D\u7531\u9802\u5305\u5230\u5C3E\u7684\u5468\u9C2D\u578B\u537B\u53C8\u6709\u5225\u65BC\u5C0F\u7BA1\uFF0C\u6D3B\u9AD4\u819A\u8272\u4E0D\u65B7\u5730\u9583\u720D\u3002\u4EE5\u5047\u8766\u990C\u8A98\u91E3\u7A31\u300C\u8235\u67D4\u9B5A\u300D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

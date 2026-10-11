@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9ED1\u8776\u73CD\u73E0\u86E4"
+  m_EditorClassIdentifier: 
+  organismName: "\u9ED1\u8776\u73CD\u73E0\u86E4"
+  photo: {fileID: 21300000, guid: 413ad09d68dba3d42a2dae28d47484e9, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9DAF\u86E4\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tPinctada
+    margaritifera\r\n\u4FD7\u3000\u540D\uFF1A\t\u9ED1\u8776\u8C9D\u3001\u73CD\u73E0\u8C9D\r\n\u7C21\u3000\u4ECB\uFF1A\t\u96D9\u6BBC\u5448\u7070\u9ED1\u8272\uFF0C\u6BBC\u677F\u6709\u9C57\u7247\u72C0\u7A81\u8D77\uFF0C\u8179\u7DE3\u9ED1\u8272\uFF0C\u6BBC\u5167\u9762\u5177\u771F\u73E0\u5149\u6FA4\uFF0C\u6BBC\u5F91\u7D0410\u516C\u5206\u3002\u5E38\u68F2\u65BC\u5CA9\u7E2B\u4E2D\uFF0C\u53EF\u505A\u70BA\u990A\u73CD\u73E0\u7684\u6BCD\u8C9D\uFF0C\u672C\u5730\u4FD7\u7A31\u9ED1\u8776\u8C9D\u3001\u73CD\u73E0\u8C9D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

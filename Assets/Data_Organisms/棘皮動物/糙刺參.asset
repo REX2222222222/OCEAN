@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7CD9\u523A\u53C3"
+  m_EditorClassIdentifier: 
+  organismName: "\u7CD9\u523A\u53C3"
+  photo: {fileID: 21300000, guid: e5888681a63ed2a47aade6f35d85b65f, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u523A\u53C3\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tStichopus
+    horrens\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u9EC3\u7DA0\u8272\u7684\u5927\u578B\u6D77\u53C3\uFF0C\u9AD4\u58C1\u7C97\u7CD9\uFF0C\u80CC\u4E0A\u8089\u523A\u72C0\u75A3\u8DB3\u7279\u5225\u767C\u9054\uFF0C\u6BCF\u4E00\u500B\u8089\u523A\u4E0A\u6709\u6578\u5708\u7D30\u8910\u8272\u74B0\u5708\u7E5E\uFF0C\u9802\u4E0A\u6709\u4E00\u9ED1\u523A\u3002\u591C\u884C\u6027\uFF0C\u5E38\u51FA\u73FE\u65BC\u77F3\u6EEC\u5340\u7684\u57FA\u77F3\u7E2B\u4E2D"
+  category: "\u68D8\u76AE\u52D5\u7269"

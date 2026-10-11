@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9280\u5854\u9418\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u8910\u7DDA\u5CE8\u87BA"
+  photo: {fileID: 21300000, guid: 8eddd7139f97afd4cbb8983f6a1490e9, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9418\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tTectus
+    pyramis\r\n\u4FD7\u3000\u540D\uFF1A\t\u9280\u5854\r\n\u7C21\u3000\u4ECB\uFF1A\t\u5713\u9310\u72C0\u7684\u5916\u5F62\u3001\u87BA\u808B\u3001\u87BA\u6E9D\u9010\u7D1A\u800C\u4E0A\u6709\u5982\u5854\u5C64\uFF0C\u7121\u81CD\u5B54\uFF0C\u4F46\u5177\u73CD\u73E0\u5149\u6FA4\uFF0C\u96E3\u602A\u6709\u201C\u9280\u5854\u201D\u7684\u7F8E\u7A31\u3002\u7DA0\u8272\u7684\u659C\u6591\u9192\u76EE\uFF0C\u6BBC\u9AD4\u53EF\u505A\u624B\u5DE5\u85DD\u54C1\u52A0\u5DE5\uFF0C\u87BA\u8089\u9BAE\u7F8E\uFF0C\u70BA\u6D77\u9BAE\u5E97\u4E2D\u76DB\u540D\u7684\u73CD\u9948\uFF0C\u4F46\u4E5F\u56E0\u70BA\u53D7\u5230\u5E02\u5834\u7684\u9752\u775E\uFF0C\u65CF\u7FA4\u6B63\u6025\u901F\u92B3\u6E1B\u4E2D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

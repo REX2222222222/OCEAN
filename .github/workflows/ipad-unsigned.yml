@@ -1,0 +1,76 @@
+name: Build iPad IPA for local signing
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ipad-unsigned-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: macos-15-intel
+    timeout-minutes: 120
+    steps:
+      - name: Check Unity credentials
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          missing=0
+          for key in UNITY_LICENSE UNITY_EMAIL UNITY_PASSWORD; do
+            if [[ -z "${!key}" ]]; then
+              echo "::error::Add $key in repository Settings > Secrets and variables > Actions."
+              missing=1
+            fi
+          done
+          exit "$missing"
+
+      - name: Checkout project
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Export Unity Xcode project
+        uses: game-ci/unity-builder@4423ee75828dff56037d1d1cfdac6b68e3a6ba00 # v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          unityVersion: 2022.3.62f3
+          targetPlatform: iOS
+          buildMethod: CloudIOSExport.Build
+          customParameters: -iosOutput build/iOS
+          versioning: None
+
+      - name: Compile and package unsigned IPA
+        shell: bash
+        run: bash ci/package-ipad.sh
+
+      - name: Upload unsigned IPA and checksum
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: iPad-IPA-requires-local-signing
+          path: |
+            build/ipa/MarineEncyclopedia-unsigned.ipa
+            build/ipa/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload build diagnostics
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: iPad-build-logs
+          path: |
+            build/xcodebuild.log
+            build/logs/**
+          if-no-files-found: ignore
+          retention-days: 7

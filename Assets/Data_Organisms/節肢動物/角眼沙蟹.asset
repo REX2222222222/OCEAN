@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u89D2\u773C\u6C99\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u89D2\u773C\u6C99\u87F9"
+  photo: {fileID: 21300000, guid: b83fbd8c85ff86b4f8addb82537ba3e3, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6C99\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tOcypode
+    ceratophthalma\r\n\u4FD7\u3000\u540D\uFF1A\t\u6D77\u6C99\u99AC\u3001\u5E7D\u9748\u87F9\u3001\u9B54\u9B3C\u87F9\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u65B9\u5F62\u3002\u773C\u67C4\u7C97\u77ED\uFF0C\u672B\u7AEF\u6709\u89D2\u72C0\u7A81\uFF0C\u6B64\u7A81\u5728\u5E7C\u87F9\u6216\u516C\u87F9\u8F03\u5C0F\u6216\u7121\u3002\u80CC\u90E8\u5F8C\u4E2D\u592E\u6709\u5169\u500B\u8336\u8910\u8272\u5C0D\u7A31\u6591\u3002\u5927\u87AF\u638C\u7BC0\u5167\u5074\u6709\u4E00\u767C\u8072\u9686\u810A\u3002\u68F2\u606F\u65BC\u9AD8\u6F6E\u7DDA\u4E0A\u7684\u6C99\u7058\uFF0C\u6398\u7A74\u800C\u5C45\uFF0C\u591C\u884C\u6027\uFF0C\u53D7\u5230\u5E72\u64FE\u5373\u51FA\u6D1E\u98DB\u5954\u4E0B\u6D77\u6F5B\u6C99\u800C\u4F0F\uFF0C\u6703\u653B\u64CA\u5176\u5B83\u87F9\u985E\u3001\u7A1A\u9F9C\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

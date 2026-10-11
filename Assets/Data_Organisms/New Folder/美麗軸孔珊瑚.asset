@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7F8E\u9E97\u8EF8\u5B54\u73CA\u745A"
+  m_EditorClassIdentifier: 
+  organismName: "\u7F8E\u9E97\u8EF8\u5B54\u73CA\u745A"
+  photo: {fileID: 21300000, guid: b898286704a7cf04483136316e1982b0, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u7F8E\u9E97\u8EF8\u5B54\u73CA\u745A\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tAcropora
+    Formosa\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u7F8E\u9E97\u8EF8\u5B54\u73CA\u745A\u7684\u7FA4\u9AD4\u5448\u53E2\u5F62\u5206\u679D\uFF0C\u5206\u679D\u4E0D\u898F\u5247\u4E14\u5F62\u614B\u4E0D\u4E00\uFF0C\u591A\u5448\u73FE\u6BD4\u76F4\u7684\u72C0\u614B\uFF0C\u76F4\u5F91\u57282\u516C\u5206\u4EE5\u5167\u3002\u5206\u679D\u5C16\u7AEF\u7684\u76F4\u5F91\u5247\u53EF\u90543\u516C\u5206\uFF0C\u901A\u5E38\u751F\u9577\u5728\u6C34\u6DF12\u81F38\u516C\u5C3A\uFF0C\u5730\u5F62\u8F03\u5E73\u5766\u7684\u6D77\u5E95\u3002"
+  category: "\u8154\u8178\u52D5\u7269"

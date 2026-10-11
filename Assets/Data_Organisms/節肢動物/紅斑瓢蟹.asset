@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7D05\u6591\u74E2\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u7D05\u6591\u74E2\u87F9"
+  photo: {fileID: 21300000, guid: 23adec7ddf942f24f9957b308053c00e, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u74E2\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCarpilius
+    maculatus\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u5BEC\u7D0415\u516C\u5206\u5448\u6A6B\u5375\u5713\u5F62\u7684\u5927\u578B\u87F9\u985E\uFF0C\u7532\u9762\u5149\u6ED1\uFF0C\u5177\u524D4\u4E2D3\u5F8C4\u7B49\u517111\u500B\u5713\u5F62\u7D2B\u8272\u5927\u584A\u6591\u3002\u7522\u65BC\u6F6E\u4E0B\u5E36\u81F3\u4E9E\u6F6E\u5E36\u5CA9\u7901\u6DFA\u6C34\u5340\u3002\u5177\u6709\u6BD2\u6027\uFF0C\u61C9\u7279\u5225\u5C0F\u5FC3\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

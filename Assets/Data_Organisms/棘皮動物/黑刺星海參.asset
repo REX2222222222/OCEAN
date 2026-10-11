@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9ED1\u523A\u661F\u6D77\u53C3"
+  m_EditorClassIdentifier: 
+  organismName: "\u9ED1\u523A\u661F\u6D77\u53C3"
+  photo: {fileID: 21300000, guid: 523ebbe79c3ed594897b071ad0f93b78, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6D77\u53C3\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tHolothuria
+    cinerascens\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u9AD4\u5448\u81D8\u8178\u5F62\uFF0C\u7D05\u8910\u8272\uFF0C\u96DC\u6709\u9ED1\u7D05\u8272\u53CA\u75A3\u8DB3\uFF0C\u751F\u6D3B\u65BC\u5CA9\u7901\u6D77\u57DF\u4F4E\u6F6E\u5E36\u4E0A\u7684\u788E\u6D6A\u5340\uFF0C\u4EE5\u904E\u6FFE\u6D6E\u6E38\u751F\u7269\u3001\u85FB\u7247\u70BA\u98DF\uFF0C\u5E7E\u4E4E\u56FA\u8457\u751F\u6D3B\u9BAE\u5C11\u79FB\u52D5\uFF0C\u9047\u523A\u6FC0\u6703\u9F13\u8139\u8EAB\u9AD4\u5361\u5728\u5CA9\u7E2B\u4E2D\u4EE5\u6C42\u81EA\u4FDD\u3002"
+  category: "\u68D8\u76AE\u52D5\u7269"

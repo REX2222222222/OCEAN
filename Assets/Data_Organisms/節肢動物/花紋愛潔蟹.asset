@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u82B1\u7D0B\u611B\u6F54\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u82B1\u7D0B\u611B\u6F54\u87F9"
+  photo: {fileID: 21300000, guid: aa5f024791e338b40b34962fcfa7597d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6247\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tAtergatis
+    floridus\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u5448\u6A6B\u5375\u5713\u5F62\u7D045\u516C\u5206\uFF0C\u5168\u8EAB\u68D5\u8910\u8272\uFF0C\u7532\u9762\u53CA\u8179\u81CD\u4E0A\u6709\u9192\u76EE\u7684\u4E73\u767D\u8272\u82B1\u7D0B\uFF0C\u87AF\u8DB3\u5177\u7D05\u68D5\u8272\u6591\u9EDE\uFF0C\u5DE6\u53F3\u5C0D\u7A31\uFF0C\u751F\u6D3B\u65BC\u6F6E\u9593\u5E36\u5CA9\u7901\u5E95\u90E8\uFF0C\u5177\u6709\u6BD2\u6027\uFF0C\u4E0D\u53EF\u98DF\u7528\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

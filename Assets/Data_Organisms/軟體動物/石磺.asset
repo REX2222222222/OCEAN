@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u77F3\u78FA"
+  m_EditorClassIdentifier: 
+  organismName: "\u77F3\u78FA"
+  photo: {fileID: 21300000, guid: d5a0dca05cb26bc4793d19cff61f189a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u77F3\u78FA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tOncidium
+    verruculatum\r\n\u4FD7\u3000\u540D\uFF1A\t\u8C93\u4ED4\u7622\u3001\u8EB2\u907F\u4ED4\r\n\u7C21\u3000\u4ECB\uFF1A\t\u9AD4\u5448\u6A62\u5713\uFF0C\u7D045\u516C\u5206\uFF0C\u80CC\u90E8\u6709\u8A31\u591A\u75A3\u72C0\u7A81\uFF0C\u982D\u90E8\u6709\u4E00\u5C0D\u89F8\u89D2\u3002\u96E8\u5929\u6703\u722C\u5230\u5CA9\u77F3\u8868\u9762\uFF0C\u5177\u64EC\u614B\u529F\u592B\uFF0C\u591C\u884C\u6027\uFF0C\u521D\u590F\u7522\u5375\uFF0C\u79CB\u51AC\u4E0B\u5230\u6DF1\u5C64\u6C34\u57DF\u907F\u5BD2\uFF0C\u4FD7\u7A31\u300C\u8C93\u4ED4\u7622\u300D\u3001\u300C\u8EB2\u907F\u4ED4\u300D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u5927\u99DD\u77F3\u9F9E"
+  m_EditorClassIdentifier: 
+  organismName: "\u5927\u99DD\u77F3\u9F9E"
+  photo: {fileID: 21300000, guid: 6228566c12daf9745b5109ca542b370d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u77F3\u9F9E\u8C9D\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tLiolophura
+    japonica\r\n\u4FD7\u3000\u540D\uFF1A\t\u99DD\u80CC\u4ED4\r\n\u7C21\u3000\u4ECB\uFF1A\t\u516B\u7247\u7532\u6BBC\u4E26\u5217\u9AD4\u80CC\uFF0C\u8089\u5E36\u4E0A\u6709\u7DA0\u8272\u5C0F\u9846\u7C92\uFF0C\u8179\u8DB3\u5F37\u529B\u5438\u5CA9\uFF0C\u812B\u96E2\u4F9D\u5B58\u7684\u6BCD\u5CA9\u5F8C\u9813\u6709\u4E00\u500B\u5927\u89D2\u5EA6\u7684\u99DD\u5F4E\uFF0C\u50CF\u6975\u4E86\u51CC\u7A7A\u7684\u81EA\u7531\u82B1\u5098\u3002\u71C9\u716E\u82B1\u751F\u4E43\u4EBA\u9593\u7F8E\u5473\uFF0C\u65CF\u7FA4\u6B63\u9010\u6F38\u6E1B\u5C11\u4E2D\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

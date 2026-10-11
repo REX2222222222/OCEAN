@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u8708\u86A3\u6ADB\u86C7\u5C3E"
+  m_EditorClassIdentifier: 
+  organismName: "\u8708\u86A3\u6ADB\u86C7\u5C3E"
+  photo: {fileID: 21300000, guid: 7a3dffca442e47348a9cbfae9774e280, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6ADB\u86C7\u5C3E\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCphiocoma
+    scolopendrina\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u9AD4\u8868\u70BA\u6DF1\u8910\u8272\uFF0C\u4E2D\u592E\u76E4\u5C0F\uFF0C\u8155\u8DB3\u7D30\u9577\u5982\u8708\u86A3\uFF0C\u53E3\u5728\u8179\u9762\u4E2D\u592E\u5177\u4E94\u6392\u9F52\uFF0C\u4EE5\u6D6E\u6E38\u751F\u7269\u53CA\u6709\u6A5F\u788E\u5C51\u70BA\u98DF\uFF0C\u751F\u6027\u5BB3\u7F9E\u884C\u52D5\u7DE9\u6162\uFF0C\u6A5F\u8B66\u4E0D\u51FA\u6D1E\uFF0C\u6CB3\u9B68\u662F\u5176\u5929\u6575\u3002\u5BC6\u5EA6\u9AD8\u70BA\u6D77\u5CB8\u512A\u52E2\u52D5\u7269\u3002"
+  category: "\u68D8\u76AE\u52D5\u7269"

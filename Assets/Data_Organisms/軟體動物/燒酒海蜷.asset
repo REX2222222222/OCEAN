@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u71D2\u9152\u6D77\u8737"
+  m_EditorClassIdentifier: 
+  organismName: "\u71D2\u9152\u6D77\u8737"
+  photo: {fileID: 21300000, guid: f56c93bfae1200843a31818a06c64d4a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6D77\u8737\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tBatillria
+    zonalis\r\n\u4FD7\u3000\u540D\uFF1A\t\u71D2\u9152\u87BA\r\n\u7C21\u3000\u4ECB\uFF1A\t\u8C9D\u6BBC\u9ED1\u8910\u8272\uFF0C\u87BA\u5854\u7626\u9AD8\uFF0C\u6709\u7D30\u87BA\u808B\u548C\u7624\u72C0\u7E31\u808B\uFF0C\u7E2B\u5408\u7DDA\u4E0B\u5E38\u898B\u767D\u8272\u6A6B\u5E36\u3002\u751F\u9577\u65BC\u6CE5\u7058\u8655\uFF0C\u6625\u5B63\u6D77\u85FB\u76DB\u767C\u4E4B\u6642\uFF0C\u6B64\u985E\u6D77\u8737\u5E38\u805A\u5C45\u722D\u98DF\u3002\u7522\u91CF\u591A\uFF0C\u662F\u300C\u71D2\u9152\u87BA\u300D\u7684\u91CD\u8981\u87BA\u7A2E\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u5947\u7570\u6D77\u87D1\u8782"
+  m_EditorClassIdentifier: 
+  organismName: "\u5947\u7570\u6D77\u87D1\u8782"
+  photo: {fileID: 21300000, guid: 963c44cf6f616cc46bc78074655516c9, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6D77\u87D1\u8782\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tLigia
+    exotica\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u7532\u6BBC\u985E\u7B49\u8173\u76EE\u52D5\u7269\uFF0C\u5177\u6709\u4E03\u5C0D\u8179\u80A2\uFF0C\u9AD4\u9577\u7D043\u516C\u5206\uFF0C\u5916\u5F62\u795E\u4F3C\u87D1\u8782\u3002\u5E38\u5728\u9AD8\u6F6E\u7DDA\u792B\u77F3\u5806\uFF0C\u5C24\u4EE5\u7853\u53E4\u77F3\u5E95\u90E8\u6F6E\u6FD5\u9670\u6697\u8655\u6D3B\u52D5\uFF0C\u5728\u6C34\u4E2D\u4E0D\u8010\u4E45\uFF0C\u96DC\u98DF\u6027\u5375\u80CE\u751F\uFF0C\u70BA\u81ED\u809A\u6700\u4F73\u7684\u990C\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

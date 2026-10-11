@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u8305\u5F62\u5CA9\u74F7\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u8305\u5F62\u5CA9\u74F7\u87F9"
+  photo: {fileID: 21300000, guid: 5fd988681b6ac4c48966efc93435485d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u74F7\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tPetrolisthes
+    hastatus\r\n\u4FD7\u3000\u540D\uFF1A\t\u52A0\u526A\u74E3\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u6241\u5E73\u5149\u6ED1\uFF0C\u4E2D\u592E\u88AB\u524D\u984D\u4E2D\u592E\u6E9D\u6253\u65B7\uFF0C\u5DE6\u53F3\u9257\u8173\u8FD1\u7B49\u5927\uFF0C\u5169\u6307\u9589\u5408\u6642\u6307\u7AEF\u4EA4\u932F\u6307\u9593\u5BC6\u5408\u3002\u9AD4\u5448\u68D5\u8910\u8272\uFF0C\u87AF\u8173\u53EF\u52D5\u6307\u57FA\u90E8\u6A58\u7D05\u3001\u5167\u7DE3\u85CD\u8272\u3001\u672B\u7AEF\u7D05\u8272\u3002\u68F2\u65BC\u6F6E\u9593\u5E36\u77F3\u982D\u4E0B\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

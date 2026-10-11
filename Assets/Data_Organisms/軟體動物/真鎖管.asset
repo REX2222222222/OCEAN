@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u771F\u9396\u7BA1"
+  m_EditorClassIdentifier: 
+  organismName: "\u771F\u9396\u7BA1"
+  photo: {fileID: 21300000, guid: 8f916cb868980c04b8d79104cb3d5454, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u69CD\u70CF\u8CCA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tLoligo
+    edulis\r\n\u4FD7\u3000\u540D\uFF1A\t\u900F\u62BD\u3001\u725B\u5C79\r\n\u7C21\u3000\u4ECB\uFF1A\t\u5F62\u4F3C\u53F0\u7063\u9396\u7BA1\uFF0C\u4F46\u5C3E\u90E8\u72F9\u9577\u800C\u5C16\uFF0C\u7AEF\u9C2D\u4EA6\u8F03\u524D\u8005\u7684\u7BC4\u570D\u5C0F\uFF0C\u4F46\u5E02\u5834\u50F9\u683C\u5DEE\u8DDD\u751A\u5927\u3002\u9AD4\u578B\u8F03\u5927\u8005\u7A31\u70BA\u300C\u900F\u62BD\u300D\uFF0C\u518D\u66F4\u5927\u8005\u7A31\u70BA\u300C\u725B\u5C79\u300D\uFF0C\u7522\u91CF\u6BD4\u53F0\u7063\u9396\u7BA1\u5C11\u5F88\u591A\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

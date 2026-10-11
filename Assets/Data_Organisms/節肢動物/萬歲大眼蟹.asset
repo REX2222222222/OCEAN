@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u842C\u6B72\u5927\u773C\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u842C\u6B72\u5927\u773C\u87F9"
+  photo: {fileID: 21300000, guid: 9405efd189ca0dd4e9f6e2045870651a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6C99\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tMacrophthalmus
+    banzai\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u7532\u5BEC\u5927\u65BC\u7532\u9577\u5448\u6A6B\u9577\u65B9\u5F62\u3002\u87AF\u8173\u638C\u7BC0\u5F88\u9577\u4E14\u5149\u6ED1\uFF0C\u5169\u6307\u4E0B\u5F4E\u6307\u5C16\u5448\u5319\u72C0\u3002\u5168\u8EAB\u571F\u8910\u8272\uFF0C\u87AF\u8173\u571F\u9EC3\u8272\u3002\u7A74\u5C45\u65BC\u7A4D\u6C34\u4E0D\u9000\u7684\u6CE5\u7058\uFF0C\u7D30\u9577\u96D9\u773C\u633A\u51FA\u6C34\u9762\uFF0C\u50C5\u9732\u773C\u67C4\u53CA\u7070\u85CD\u5C0F\u773C\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u5584\u6CF3\u87F3"
+  m_EditorClassIdentifier: 
+  organismName: "\u5584\u6CF3\u87F3"
+  photo: {fileID: 21300000, guid: 6882dd72e8966964ca38d18f77c16f1d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u68AD\u5B50\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCharybdis
+    natator\r\n\u4FD7\u3000\u540D\uFF1A\t\u706B\u71D2\u622A\r\n\u7C21\u3000\u4ECB\uFF1A\t\u4E0A\u773C\u6709\u4E00\u80A1\u786C\u6BBC\u539A\u91CD\u7684\u611F\u89BA\uFF0C\u982D\u80F8\u7532\u8F03\u5927\u8005\u9BAE\u7D05\u8272\uFF0C\u8F03\u5C0F\u8005\u70BA\u6697\u7D05\u8272\uFF0C\u984D\u9F52\u5E73\u920D\u3002\u6F8E\u6E56\u5E02\u5834\u4F9B\u91CF\u6975\u591A\uFF0C\u4F46\u56E0\u5916\u89C0\u4E26\u4E0D\u4E2D\u770B\u50F9\u4F4D\u4E00\u76F4\u4E0D\u9AD8\uFF0C\u5927\u9678\u9032\u53E3\u7684\u8F03\u70BA\u5927\u578B\u4F46\u9BAE\u5EA6\u8F03\u5DEE\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

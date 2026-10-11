@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7389\u5973\u8711\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u7389\u5973\u8711\u87BA"
+  photo: {fileID: 21300000, guid: c98b1ada511e0964da06b1b1c7c38e24, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u8711\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tNerita
+    polita\r\n\u4FD7\u3000\u540D\uFF1A\t\u6C99\u87BA\u676F\u4ED4\u3001\u6CB9\u87BA\r\n\u7C21\u3000\u4ECB\uFF1A\t\u87BA\u5854\u4F4E\u5E73\u534A\u7403\u5F62\uFF0C\u5149\u6ED1\u7D30\u7DFB\uFF0C\u7D05\u9EC3\u7070\u9ED1\u6A59\u8272\u76F8\u8B8A\u5316\u591A\uFF0C\u6BBC\u53E3\u9EC3\u767D\u8272\uFF0C\u5E73\u6ED1\u7121\u9846\u7C92\u3002\u9664\u7901\u5CA9\u5340\u5916\uFF0C\u767D\u5929\u6F5B\u6C99\u591C\u665A\u6D3B\u52D5\uFF0C\u70BA\u8711\u87BA\u4E2D\u9AD4\u578B\u6700\u5927\u8005\uFF0C\u5409\u8C9D\u4EBA\u7A31\u300C\u6C99\u87BA\u676F\u4ED4\u300D\uFF0C\u53EF\u4F9B\u98DF\u7528\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

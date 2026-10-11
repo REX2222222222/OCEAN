@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u6D77\u9580\u51AC"
+  m_EditorClassIdentifier: 
+  organismName: "\u6D77\u9580\u51AC"
+  photo: {fileID: 21300000, guid: b1ed565b8b32ffc468b50594a3a253c5, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u67CF\u5B89\u85FB\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tAsparagopsis
+    taxiformis\r\n\u4FD7\u3000\u540D\uFF1A\t\u8606\u7B4D\u85FB\r\n\u7C21\u3000\u4ECB\uFF1A\t\u5448\u6697\u7D05\u6216\u7D2B\u7D05\u8272\uFF0C\u5177\u530D\u5310\u8396\u53CA\u76F4\u7ACB\u8396\uFF0C\u76F4\u7ACB\u8396\u5411\u5404\u65B9\u6B67\u751F\u5C0F\u679D\uFF0C\u65E9\u6625\u81F3\u521D\u590F\u751F\u9577\u8F03\u76DB\uFF0C\u9AD8\u6EAB\u4E4B\u5F8C\uFF0C\u5C0F\u679D\u51CB\u843D\uFF0C\u50C5\u9918\u76F4\u7ACB\u8396\u7CDC\u7CDC\u721B\u721B\u5730\u5728\u6C34\u4E2D\u82DF\u5EF6\u6B98\u5598\uFF0C\u5317\u6D77\u6D77\u57DF\u8F03\u70BA\u5E38\u898B\u3002"
+  category: "\u6D77\u6D0B\u690D\u7269"

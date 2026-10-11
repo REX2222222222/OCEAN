@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u86B5\u5CA9\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u8910\u7DDA\u5CE8\u87BA"
+  photo: {fileID: 21300000, guid: f563b73d3a7647a46a166ae7a1761a36, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9AA8\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tThais
+    clavigera\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u8C9D\u6BBC\u5448\u7070\u8910\u8272\uFF0C\u4E14\u6709\u87BA\u65CB\u72C0\u6392\u5217\u7684\u9ED1\u8272\u7A81\u7624\uFF0C\u6BBC\u53E3\u70BA\u8089\u8272\uFF0C\u53E3\u7DE3\u5E38\u5177\u9ED1\u8272\u6591\u584A\uFF0C\u53E3\u84CB\u89D2\u8CEA\uFF0C\u500B\u9AD4\u8B8A\u7570\u751A\u5927\uFF0C\u7522\u65BC\u6F6E\u9593\u5E36\u5CA9\u7901\u6D77\u5CB8\uFF0C\u55DC\u98DF\u96D9\u6BBC\u8C9D\uFF0C\u5C24\u559C\u6B61\u5403\u990A\u6B96\u7684\u7261\u8823\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

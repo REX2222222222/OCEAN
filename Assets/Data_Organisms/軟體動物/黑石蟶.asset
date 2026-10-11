@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9ED1\u77F3\u87F6"
+  m_EditorClassIdentifier: 
+  organismName: "\u9ED1\u77F3\u87F6"
+  photo: {fileID: 21300000, guid: c2da1f9992e5cad489907bf98eb8511d, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u8CBD\u8C9D\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tLithophaga
+    teres\r\n\u4FD7\u3000\u540D\uFF1A\t\u7058\r\n\u7C21\u3000\u4ECB\uFF1A\t\u7565\u5448\u9577\u689D\u5F62\uFF0C\u96D9\u6BBC\u9ED1\u8272\u4E0A\u6709\u8F2A\u808B\uFF0C\u80FD\u5206\u6CCC\u7D30\u5C0F\u8DB3\u7D72\u9644\u65BC\u73CA\u745A\u7901\u7684\u6D1E\u7A74\u4E2D\uFF0C\u8DB3\u7D72\u53EF\u4F38\u7E2E\uFF0C\u547C\u5438\u651D\u98DF\u63A5\u8FD1\u6D1E\u53E3\uFF0C\u53D7\u5E72\u64FE\u5247\u5674\u6C34\u7E2E\u56DE\uFF0C\u70BA\u516C\u544A\u7981\u63A1\u8C9D\u7A2E\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

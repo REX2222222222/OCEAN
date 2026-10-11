@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7D50\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u8910\u7DDA\u5CE8\u87BA"
+  photo: {fileID: 21300000, guid: d09775e0b7ab71749ad5838f65c1636a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9AA8\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tMorula
+    granulata\r\n\u4FD7\u3000\u540D\uFF1A\t\u82E6\u87BA\r\n\u7C21\u3000\u4ECB\uFF1A\t\u5916\u6BBC\u7070\u9ED1\u8272\uFF0C\u6BBC\u8868\u5177\u6709\u9ED1\u8272\u7684\u7D50\u7624\uFF0C\u5916\u5507\u7DE3\u7A0D\u5167\u6372\uFF0C\u5167\u5507\u5247\u6709\u4E09\u8655\u7070\u767D\u7D30\u9F52\u808B\uFF0C2\u516C\u5206\u7684\u5C0F\u8C9D\u6B6A\u6B6A\u5713\u5713\u7684\u9ECF\u9644\u5728\u5C71\u5CA9\u77F3\u5E95\uFF0C\u8089\u5473\u82E6\u6F80\uFF0C\u7121\u4EBA\u554F\u6D25\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

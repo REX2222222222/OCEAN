@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u53E3\u9C13\u6D77\u81BD"
+  m_EditorClassIdentifier: 
+  organismName: "\u53E3\u9C13\u6D77\u81BD"
+  photo: {fileID: 21300000, guid: 3ae1dd9bd58478047b59ee29f06edb6c, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u53E3\u9C13\u6D77\u81BD\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tStomopneustes
+    variolaris\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6BBC\u5F91\u7D044\u516C\u5206\uFF0C\u68D8\u9577\u7D043\u516C\u5206\u7684\u4E2D\u578B\u6D77\u81BD\u3002\u68D8\u4E0D\u5149\u6ED1\u89F8\u6478\u6642\u6709\u7C97\u7CD9\u7684\u611F\u89BA\uFF0C\u68D8\u7684\u5149\u53CD\u5C04\u5E38\u5448\u7DA0\u8272\u3002\u5176\u53E3\u5668\u5480\u56BC\u5668\u4E0A\u4E4B\u9AA8\u7247\u524D\u7AEF\u4E26\u672A\u76F8\u9023\uFF0C\u6B64\u53EF\u8207\u7D2B\u6D77\u81BD\u5340\u5206\uFF0C\u53EF\u78E8\u6316\u5CA9\u7A74\u5C45\u4F4F\u3002"
+  category: "\u68D8\u76AE\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u5927\u6307\u8766\u86C4"
+  m_EditorClassIdentifier: 
+  organismName: "\u5927\u6307\u8766\u86C4"
+  photo: {fileID: 21300000, guid: 31c6127be103bda4cb5fd9b0bc18f81b, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u6307\u8766\u86C4\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tGonodactylus
+    chiragra\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6210\u9AD4\u53EF\u905410\u516C\u5206\uFF0C\u9AD4\u8272\u591A\u8B8A\u5316\uFF0C\u6709\u82B1\u6591\u578B\u3001\u7DA0\u8272\u578B\u3001\u6DF1\u7DA0\u578B\u3002\u901A\u5E38\u96C4\u9AD4\u8272\u8F03\u6DF1\u96CC\u9AD4\u8272\u8F03\u6DE1\u3002\u87AF\u8173\u6307\u7BC0\u6839\u90E8\u81A8\u8139\u5448\u4E00\u5C0D\u653B\u64CA\u6027\u9644\u80A2\uFF0C\u5F37\u800C\u6709\u529B\u5177\u9EDE\u4E8C\u4E8C\u53E3\u5F91\u5B50\u5F48\u7684\u521D\u901F\uFF0C\u53EF\u64CA\u7834\u868C\u6BBC\u751A\u81F3\u8584\u7684\u73BB\u7483\u7F38\uFF0C\u68F2\u65BC\u6DFA\u73CA\u745A\u7901\u7A74\u8005\u9AD4\u8272\u8277\u9E97\u3002\u53EF\u7528\u70BA\u91E3\u77F3\u6591\u7684\u990C\uFF0C\u6BCF\u5C3E8\u5143\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

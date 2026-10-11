@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u7D05\u5B0C\u9CF3\u51F0\u87BA"
+  m_EditorClassIdentifier: 
+  organismName: "\u7D05\u5B0C\u9CF3\u51F0\u87BA"
+  photo: {fileID: 21300000, guid: 76ac3563a92f02542bdcc76137661b3a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9CF3\u51F0\u87BA\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tStrobus
+    luhuanus\r\n\u4FD7\u3000\u540D\uFF1A\t\u5B0C\u4ED4\u87BA\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6BBC\u9577\u7D045\u516C\u5206\uFF0C\u6BBC\u9762\u6DFA\u7C73\u8272\u5176\u4E0A\u5177\u6709\u8910\u8272\u7C6C\u72C0\u6591\u7D0B\uFF0C\u87BA\u5854\u4F4E\uFF0C\u6BBC\u53E3\u7C89\u7D05\u4EFF\u5982\u5857\u4E0A\u5507\u818F\uFF0C\u5167\u5507\u7DE3\u6709\u9ED1\u8272\u7C97\u7E31\u7D0B\uFF0C\u89D2\u8CEA\u53E3\u84CB\u5916\u9732\u51FA\u9ED1\u74B0\u6436\u773C\u7684\u773C\u67C4\uFF0C\u68F2\u65BC\u6DFA\u6D77\u73CA\u745A\u6C99\u5E95\uFF0C\u70BA\u7D93\u6FDF\u87BA\u7A2E\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

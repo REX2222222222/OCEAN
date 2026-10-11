@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u523A\u51A0\u6D77\u81BD"
+  m_EditorClassIdentifier: 
+  organismName: "\u523A\u51A0\u6D77\u81BD"
+  photo: {fileID: 21300000, guid: 063c753723799184b8918765c34619a1, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u51A0\u6D77\u81BD\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tDiadema
+    setosum\r\n\u4FD7\u3000\u540D\uFF1A\t\u9B54\u9B3C\u6D77\u81BD\u3001\u6D77\u9B1A\u3001\u6D77\u91DD\r\n\u7C21\u3000\u4ECB\uFF1A\t\u672C\u7A2E\u70BA\u5927\u578B\u6D77\u81BD\uFF0C\u6BBC\u5F91\u53EF\u905410\u516C\u5206\uFF0C\u68D8\u957715\u516C\u5206\u3002\u9ED1\u8910\u8272\u8F03\u591A\u898B\u3002\u809B\u4E73\u7A81\u70BA\u7121\u8272\u900F\u660E\u958B\u53E3\u70BA\u91D1\u8272\u74B0\uFF0C\u8EAB\u4E0A\u51775\u500B\u8F3B\u5C04\u7684\u85CD\u6591\uFF0C\u591C\u884C\u6027\uFF0C\u4EE5\u85FB\u985E\u70BA\u98DF\uFF0C\u70BA\u6700\u5371\u96AA\u7684\u6D77\u6D0B\u751F\u7269\u4E4B\u4E00\u3002"
+  category: "\u68D8\u76AE\u52D5\u7269"

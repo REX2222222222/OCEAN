@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u9ED1\u9F52\u7261\u8823"
+  m_EditorClassIdentifier: 
+  organismName: "\u9ED1\u9F52\u7261\u8823"
+  photo: {fileID: 21300000, guid: 641aab19fe9acce49aa01cc0e68f4cfd, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u7261\u8823\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tSaccostrea
+    mordax\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u96D9\u6BBC\u7070\u8272\uFF0C\u5916\u5F62\u4E0D\u898F\u5247\uFF0C\u4EE5\u5DE6\u6BBC\u56FA\u8457\u65BC\u5CA9\u7901\u4E0A\uFF0C\u6BBC\u7DE3\u6709\u7D2B\u9ED1\u8272\u6CE2\u6D6A\u72C0\u69CB\u9020\u3002\u6625\u590F\u80A5\uFF0C\u79CB\u51AC\u7626\uFF0C\u7FA4\u68F2\u65BC\u7901\u5CA9\u58C1\u4E0A\uFF0C\u65E9\u5E74\u6C61\u67D3\u6E90\u5C11\uFF0C\u7834\u6BBC\u6311\u8089\u5373\u53EF\u751F\u5403\uFF0C\u8001\u4E00\u8F29\u8AAA\u5403\u86B5\u53EF\u4F7F\u201C\u76EE\u776D\u91D1\u201D\uFF0C\u70BA\u91CE\u751F\u7684\u77F3\u86B5\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

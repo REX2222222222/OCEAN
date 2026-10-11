@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u809D\u8449\u9945\u982D\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u809D\u8449\u9945\u982D\u87F9"
+  photo: {fileID: 21300000, guid: 116f3e7534d948e4da340feae8954b3b, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9945\u982D\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCalappa
+    hepatica\r\n\u4FD7\u3000\u540D\uFF1A\t\u6C99\u9310\u3001\u649E\u58C1\r\n\u7C21\u3000\u4ECB\uFF1A\t\u56E0\u982D\u80F8\u7532\u5F8C\u5074\u7DE3\u5169\u5074\u5448\u7FFC\u72C0\u64F4\u5F35\uFF0C\u6545\u5448\u9577\u6A62\u5713\u5916\u5F62\u3002\u571F\u9EC3\u7684\u7532\u9762\u4E0A\u6563\u751F\u8A31\u591A\u6DFA\u8272\u75A3\u7A81\uFF0C\u4E5F\u5E38\u9644\u751F\u7DA0\u85FB\uFF0C\u5E38\u68F2\u65BC\u6F6E\u9593\u5E36\u81F3\u4E9E\u6F6E\u5E36\u7684\u6C99\u5E95\uFF0C\u6F5B\u6C99\u529F\u592B\u4E00\u6D41\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

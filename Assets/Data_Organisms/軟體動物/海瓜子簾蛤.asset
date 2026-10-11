@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u6D77\u74DC\u5B50\u7C3E\u86E4"
+  m_EditorClassIdentifier: 
+  organismName: "\u6D77\u74DC\u5B50\u7C3E\u86E4"
+  photo: {fileID: 21300000, guid: fbe7eb6d9dc90fd41937a6a297a82f66, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u7C3E\u86E4\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tRuditapes
+    variegatus\r\n\u4FD7\u3000\u540D\uFF1A\t\u8584\u86E4\u4ED4\r\n\u7C21\u3000\u4ECB\uFF1A\t\u6BBC\u8868\u5177\u8F2A\u8108\u548C\u7D30\u653E\u5C04\u808B\uFF0C\u82B1\u7D0B\u8272\u6A23\u8B8A\u5316\u591A\uFF0C\u6BBC\u9577\u7D043\u516C\u5206\uFF0C\u68F2\u65BC\u6F6E\u9593\u5E36\u7802\u792B\u5E95\u8CEA\uFF0C\u57CB\u5165\u7D043\u516C\u5206\u6DF1\uFF0C\u672C\u5730\u4EBA\u5E38\u4EE5\u5730\u6BEF\u5F0F\u7684\u7BE9\u6252\u65B9\u5F0F\u4F5C\u696D\uFF0C\u7522\u91CF\u8C50\u5BCC\uFF0C\u70BA\u98DF\u7528\u4E8C\u679A\u8C9D\u4E2D\u50F9\u4F4D\u8C9D\u7A2E\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u5DE8\u7261\u8823"
+  m_EditorClassIdentifier: 
+  organismName: "\u5DE8\u7261\u8823"
+  photo: {fileID: 21300000, guid: db5fc495bd9e5a1428953d41d43a314a, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u7261\u8823\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCrassostrea
+    gigas\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u96D9\u6BBC\u5916\u5F62\u7565\u9577\uFF0C\u9EC3\u767D\u8272\u800C\u5177\u7D2B\u8910\u8272\u6591\uFF0C\u5DE6\u6BBC\u8F03\u5927\u7D048\u516C\u5206\u3002\u5927\u91CF\u990A\u6B96\u4EE5\u4F9B\u5E02\u5834\u9700\u6C42\u3002\u672C\u5730\u4EE5\u99AC\u516C\u5E02\u83DC\u5712\u7684\u990A\u6B96\u898F\u6A21\u6700\u5927\uFF0C\u5982\u9047\u96E8\u6C34\u5C11\uFF0C\u6241\u87F2\u8086\u8650\uFF0C\u5C31\u6703\u9020\u6210\u6B49\u6536\u3002"
+  category: "\u8EDF\u9AD4\u52D5\u7269"

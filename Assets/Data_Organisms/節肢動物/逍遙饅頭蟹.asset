@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u900D\u9059\u9945\u982D\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u900D\u9059\u9945\u982D\u87F9"
+  photo: {fileID: 21300000, guid: 42cdc4cd26900234fa2426c12ab9c6e7, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u9945\u982D\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCalappa
+    philargius\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u7D048\u516C\u5206\u5BEC\uFF0C\u5F8C\u5074\u5169\u7DE3\u6709\u7FFC\u72C0\u64F4\u5F35\uFF0C\u7532\u9762\u67092\u689D\u7DDA\u6E9D\uFF0C\u5F8C\u7DE3\u5217\u751F7\u679A\u92B3\u9F52\uFF0C\u773C\u5F8C\u67092\u500B\u7D2B\u7D05\u201C\u51F9\u201D\u5F62\u6591\uFF0C\u5927\u87AF\u8173\u5916\u5074\u6709\u5169\u679A\u7D2B\u7D05\u5927\u86C7\u76EE\u6591\u3002\u68F2\u65BC\u6DFA\u6D77\u6C99\u5E95\u3002\r\n"
+  category: "\u7BC0\u80A2\u52D5\u7269"

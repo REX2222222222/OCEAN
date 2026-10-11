@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u6BDB\u8DB3\u5713\u8EF8\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u6BDB\u8DB3\u5713\u8EF8\u87F9"
+  photo: {fileID: 21300000, guid: 94a90c382e1715047af93d6b08d411e0, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u5730\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tCardisoma
+    hirtipes\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u80CC\u7532\u8FD1\u5713\u65B9\u5F62\uFF0C\u7532\u9762\u9686\u8D77\uFF0C\u5169\u5074\u9C13\u57DF\u70BA\u9686\u8D77\u4E4B\u6700\u90E8\u5206\uFF0C\u9830\u5340\u7D68\u6BDB\u5448\u56DB\u908A\u5F62\u72C0\uFF0C\u80CC\u7532\u984F\u8272\u70BA\u6DF1\u5496\u5561\u81F3\u9ED1\u8272\uFF0C\u773C\u775B\u70BA\u9ED1\u8272\uFF0C\u6B65\u8173\u68D5\u9EC3\u8272\uFF0C\u9577\u6EFF\u7D68\u6BDB\u3002\u68F2\u65BC\u6D77\u5CB8\u704C\u53E2\u5340\u6216\u4F38\u5165\u5167\u9678\u6DE1\u6C34\u5340\uFF0C\u4F46\u751F\u6B96\u5B63\u7BC0\u5FC5\u9808\u6A6B\u8D8A\u99AC\u8DEF\u81F3\u6D77\u908A\u91CB\u653E\u5E7C\u9AD4\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"

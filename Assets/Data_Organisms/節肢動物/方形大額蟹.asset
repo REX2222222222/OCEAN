@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a0927ee98b4846a38c501a0bd3c00, type: 3}
+  m_Name: "\u65B9\u5F62\u5927\u984D\u87F9"
+  m_EditorClassIdentifier: 
+  organismName: "\u65B9\u5F62\u5927\u984D\u87F9"
+  photo: {fileID: 21300000, guid: bb9ee7c592643d047a948f29bacc84aa, type: 3}
+  description: "\u79D1\u3000\u5225\uFF1A\t\u65B9\u87F9\u79D1\r\n\u5B78\u3000\u540D\uFF1A\tMetopograpsus
+    thukuhar\r\n\u4FD7\u3000\u540D\uFF1A\t\r\n\u7C21\u3000\u4ECB\uFF1A\t\u982D\u80F8\u7532\u65B9\u5F62\uFF0C\u7532\u9762\u6241\u5E73\uFF0C\u984D\u5BEC\uFF0C\u6A6B\u5411\u9686\u7D0B\u591A\u689D\u3002\u571F\u9EC3\u8272\u5E95\uFF0C\u5176\u4E0A\u5BC6\u4F48\u6DE1\u7DA0\u8272\u584A\u6591\u53CA\u9ED1\u8272\u5C0F\u6591\uFF0C\u87AF\u8173\u638C\u90E8\uFF0C\u6307\u7BC0\u5916\u5074\u70BA\u7D2B\u8272\uFF0C\u68F2\u65BC\u5CA9\u7901\u6D77\u5CB8\u9AD8\u6F6E\u5E36\u792B\u77F3\u5340\uFF0C\u6FD5\u5730\u77F3\u584A\u5340\u3002"
+  category: "\u7BC0\u80A2\u52D5\u7269"
