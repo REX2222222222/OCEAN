@@ -49,6 +49,7 @@ jobs:
           buildMethod: CloudIOSExport.Build
           customParameters: -iosOutput build/iOS
           versioning: None
+          cacheUnityInstallationOnMac: true
 
       - name: Compile and package unsigned IPA
         shell: bash
