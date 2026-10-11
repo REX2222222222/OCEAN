@@ -28,7 +28,8 @@ jobs:
           base="https://github.com/REX2222222222/OCEAN/releases/download/ios-xcode-export-2026-10-11"
           curl --fail --location --retry 3 "$base/OCEAN-Xcode.zip" -o build/OCEAN-Xcode.zip
           curl --fail --location --retry 3 "$base/SHA256SUMS.txt" -o build/SHA256SUMS.txt
-          (cd build && shasum -a 256 -c SHA256SUMS.txt)
+          tr -d '\r' < build/SHA256SUMS.txt > build/SHA256SUMS-unix.txt
+          (cd build && shasum -a 256 -c SHA256SUMS-unix.txt)
           unzip -q build/OCEAN-Xcode.zip -d build/iOS
           test -d build/iOS/Unity-iPhone.xcodeproj
           # Windows ZIP files do not preserve Unix executable permission bits.
