@@ -34,3 +34,6 @@ Unity 原始碼與素材已加入此儲存庫。手動雲端建置流程會輸�
 - Unity 模擬檢查通過 2048×1430、2048×1536、1920×1080 三種比例，分類與導覽按鈕均在畫面內，下一頁能正常前進。
 
 新版使用 `ios-xcode-export-2026-10-12-tablet` 的 Xcode 匯出檔作為雲端輸入，IPA 仍需簽章安裝後進行 iPad 實機測試。
+
+2026-10-12 的 [平板版面雲端建置](https://github.com/REX2222222222/OCEAN/actions/runs/38211506822) 已成功。
+新版 IPA：[`ipad-tablet-layout-2026-10-12`](https://github.com/REX2222222222/OCEAN/releases/tag/ipad-tablet-layout-2026-10-12)。
