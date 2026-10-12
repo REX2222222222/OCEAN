@@ -97,6 +97,7 @@ public partial class BookController : MonoBehaviour
         SetupCategoryButtons();
         SetupReadingFeatures();
         SetupNavigationVisibility();
+        SetupResponsiveReadingLayout();
 
         if (prevButton != null)
         {
@@ -162,6 +163,42 @@ public partial class BookController : MonoBehaviour
             Transform obsoletePage = transform.Find(obsoleteName);
             if (obsoletePage != null) obsoletePage.gameObject.SetActive(false);
         }
+    }
+
+    private void SetupResponsiveReadingLayout()
+    {
+        Canvas rootCanvas = GetComponentInParent<Canvas>();
+        if (rootCanvas == null) return;
+        CanvasScaler scaler = rootCanvas.GetComponent<CanvasScaler>();
+        if (scaler != null)
+        {
+            // Fit the complete reading surface on both 4:3 and wider tablets.
+            // Keep page geometry unchanged so the curl clipping and shadows agree.
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1160f, 850f);
+            scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.Expand;
+        }
+
+        int tabIndex = 0;
+        foreach (Transform child in rootCanvas.transform)
+        {
+            if (!child.name.StartsWith("Tab_")) continue;
+            // Tab names contain a stable numeric prefix; hierarchy order varies.
+            int number;
+            string[] parts = child.name.Split('_');
+            if (parts.Length < 2 || !int.TryParse(parts[1], out number)) continue;
+            tabIndex = number - 1;
+            SetRect(child as RectTransform, new Vector2(-460f + 190f * tabIndex, 390f), new Vector2(180f, 48f));
+        }
+
+        RectTransform returnRect = rootCanvas.transform.Find("Btn_Return") as RectTransform;
+        if (returnRect != null)
+            SetRect(returnRect, new Vector2(490f, 390f), new Vector2(140f, 48f));
+        // Move navigation below the spread so it does not limit the book width.
+        if (prevButton != null)
+            SetRect(prevButton.GetComponent<RectTransform>(), new Vector2(-505f, -355f), new Vector2(130f, 65f));
+        if (nextButton != null)
+            SetRect(nextButton.GetComponent<RectTransform>(), new Vector2(505f, -355f), new Vector2(130f, 65f));
     }
 
     private void SetupNavigationVisibility()

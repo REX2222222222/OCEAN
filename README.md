@@ -24,4 +24,13 @@ Unity 原始碼與素材已加入此儲存庫。手動雲端建置流程會輸�
 另保留 `Build iPad IPA for local signing` 流程，供能在雲端啟用 Unity 授權的帳號使用。
 2026-10-11 已完成 [iPad 雲端建置](https://github.com/REX2222222222/OCEAN/actions/runs/38124833422) 與 IPA 檔案檢查。
 
-下載 [iPad 測試版 IPA](https://github.com/REX2222222222/OCEAN/releases/download/ipad-test-2026-10-11/MarineEncyclopedia-unsigned.ipa)，再依測試說明簽章安裝。尚未完成 iPad 實機驗證。
+下載 [iPad 測試版 IPA](https://github.com/REX2222222222/OCEAN/releases/download/ipad-test-2026-10-11/MarineEncyclopedia-unsigned.ipa)，再依測試說明簽章安裝。原版已由使用者安裝，並提供 iPad 上的圖鑑畫面；翻頁動畫與相機辨識仍需實機驗證。
+
+## 2026-10-12 平板版面調整
+
+- 圖鑑改用 1160×850 的參考版面，依螢幕比例等比例縮放。
+- 放大分類按鈕，將上一頁／下一頁移到書本下方，增加書本可用寬度。
+- 保留頁面原始尺寸及捲曲陰影幾何，避免縮放影響翻頁效果。
+- Unity 模擬檢查通過 2048×1430、2048×1536、1920×1080 三種比例，分類與導覽按鈕均在畫面內，下一頁能正常前進。
+
+新版使用 `ios-xcode-export-2026-10-12-tablet` 的 Xcode 匯出檔作為雲端輸入，IPA 仍需簽章安裝後進行 iPad 實機測試。
