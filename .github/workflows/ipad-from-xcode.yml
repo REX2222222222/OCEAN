@@ -25,7 +25,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build
-          base="https://github.com/REX2222222222/OCEAN/releases/download/ios-xcode-export-2026-10-12-tablet"
+          base="https://github.com/REX2222222222/OCEAN/releases/download/ios-xcode-export-2026-10-16-recording"
           curl --fail --location --retry 3 "$base/OCEAN-Xcode.zip" -o build/OCEAN-Xcode.zip
           curl --fail --location --retry 3 "$base/SHA256SUMS.txt" -o build/SHA256SUMS.txt
           tr -d '\r' < build/SHA256SUMS.txt > build/SHA256SUMS-unix.txt
