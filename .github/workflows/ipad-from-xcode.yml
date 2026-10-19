@@ -20,7 +20,8 @@ jobs:
           gh api "repos/$GITHUB_REPOSITORY/releases/416909969" --jq '.assets[] | [.id, .name] | @tsv' | while IFS=$'\t' read -r id name; do
             gh api -H "Accept: application/octet-stream" "repos/$GITHUB_REPOSITORY/releases/assets/$id" > "build/$name"
           done
-          (cd build && shasum -a 256 -c SHA256SUMS.txt)
+          tr -d '\r' < build/SHA256SUMS.txt > build/SHA256SUMS-unix.txt
+          (cd build && shasum -a 256 -c SHA256SUMS-unix.txt)
           unzip -q build/OCEAN-Xcode.zip -d build/iOS
           find build/iOS -type f \( -name '*.sh' -o -name il2cpp -o -name bee_backend -o -name UnityLinker \) -exec chmod +x {} +
       - name: Build unsigned iPad app
