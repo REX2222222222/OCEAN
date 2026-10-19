@@ -2,7 +2,7 @@ name: iPad learning-time package
 on:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   build:
     runs-on: macos-15-intel
@@ -17,7 +17,9 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build
-          gh release download ios-xcode-20261019-learning-times --repo "$GITHUB_REPOSITORY" --dir build --pattern OCEAN-Xcode.zip --pattern SHA256SUMS.txt
+          gh api "repos/$GITHUB_REPOSITORY/releases/416909969" --jq '.assets[] | [.id, .name] | @tsv' | while IFS=$'\t' read -r id name; do
+            gh api -H "Accept: application/octet-stream" "repos/$GITHUB_REPOSITORY/releases/assets/$id" > "build/$name"
+          done
           (cd build && shasum -a 256 -c SHA256SUMS.txt)
           unzip -q build/OCEAN-Xcode.zip -d build/iOS
           find build/iOS -type f \( -name '*.sh' -o -name il2cpp -o -name bee_backend -o -name UnityLinker \) -exec chmod +x {} +
