@@ -1,59 +1,39 @@
-name: Compile exported Xcode project for iPad
-
+name: iPad October 22 UI package
 on:
   workflow_dispatch:
-
 permissions:
-  contents: read
-
-concurrency:
-  group: ipad-from-xcode-${{ github.ref }}
-  cancel-in-progress: false
-
+  contents: write
 jobs:
   build:
     runs-on: macos-15-intel
     timeout-minutes: 90
     steps:
-      - name: Checkout packaging script
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
-
-      - name: Download locally exported Xcode project
-        shell: bash
+      - name: Download private Xcode export
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           mkdir -p build
-          base="https://github.com/REX2222222222/OCEAN/releases/download/ios-xcode-export-2026-10-17-anonymous-exam"
-          curl --fail --location --retry 3 "$base/OCEAN-Xcode.zip" -o build/OCEAN-Xcode.zip
-          curl --fail --location --retry 3 "$base/SHA256SUMS.txt" -o build/SHA256SUMS.txt
+          gh api "repos/$GITHUB_REPOSITORY/releases/419768396" --jq '.assets[] | [.id, .name] | @tsv' | while IFS=$'\t' read -r id name; do
+            gh api -H "Accept: application/octet-stream" "repos/$GITHUB_REPOSITORY/releases/assets/$id" > "build/$name"
+          done
           tr -d '\r' < build/SHA256SUMS.txt > build/SHA256SUMS-unix.txt
           (cd build && shasum -a 256 -c SHA256SUMS-unix.txt)
           unzip -q build/OCEAN-Xcode.zip -d build/iOS
-          test -d build/iOS/Unity-iPhone.xcodeproj
-          # Windows ZIP files do not preserve Unix executable permission bits.
           find build/iOS -type f \( -name '*.sh' -o -name il2cpp -o -name bee_backend -o -name UnityLinker \) -exec chmod +x {} +
-
-      - name: Compile and package unsigned IPA
-        shell: bash
+      - name: Build unsigned iPad app
         run: bash ci/package-ipad.sh
-
-      - name: Upload unsigned IPA and checksum
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: iPad-IPA-requires-local-signing
-          path: |
-            build/ipa/MarineEncyclopedia-unsigned.ipa
-            build/ipa/SHA256SUMS.txt
+          name: iPad-ui-20261022-unsigned
+          path: build/ipa/*
           if-no-files-found: error
           retention-days: 7
-
-      - name: Upload build diagnostics
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: failure()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
-          name: iPad-build-logs
+          name: iPad-ui-20261022-build-logs
           path: build/xcodebuild.log
-          if-no-files-found: ignore
-          retention-days: 7
